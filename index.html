@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="./js/script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="logo">Katik</h1>
+        </header>
+
+        <section>
+            <button onclick="switchToPerimeterDiv()">Keliling Segitiga</button>
+            <button onclick="switchToAreaDiv()">Luas Segitiga</button>    
+        </section>
+        
+        <section id="main-section">
+            <div id="triangle-perimeter-div">
+                <figure>
+                    <img src="./img/triangle-perimeter.jpg" alt="Triangle Perimeter Figure">
+                    <figcaption>Gambaran Keliling Segitiga</figcaption>
+                </figure>
+
+                Keliling =
+                <input type="number" id = "s1-input" placeholder="s1"> +
+                <input type="number" id = "s2-input" placeholder="s2"> +
+                <input type="number" id = "s3-input" placeholder="s3">
+
+                <p id="result-box">[Result Box]</p>
+
+                <button class="calculate-button" id="calculate-perimeter-button" onclick="calculatePerimeter()">Calculate</button>
+            </div> 
+
+            <div id="triangle-area-div" hidden>
+                <figure>
+                    <img src="./img/triangle-area.jpg" alt="Triangle Area Figure">
+                    <figcaption>Gambaran Luas Segitiga</figcaption>
+                </figure>
+
+
+                Luas = 1/2 * 
+                <input type="number" id = "base-input" placeholder="alas (b)"> +
+                <input type="number" id = "height-input" placeholder="tinggi (h)">
+                
+                <p id="result-box">[Result Box]</p>
+
+                <button class="calculate-button" id="calculate-area-button" onclick="">Calculate</button>
+            </div>
+
+        </section>
+
+
+    </body>
+
+</html>

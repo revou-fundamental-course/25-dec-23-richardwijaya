@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(49, 45, 133);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    color: rgba(198, 203, 227, 0.771);
+    background-color: rgb(59, 43, 203);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    display: inline-block;
+    overflow: hidden;
+    align-content: center;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color:rgb(34, 86, 113);
+    cursor: pointer;
+}
+
+#logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 500%;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+figure {
+    text-align: left;
+    margin-left: 39%;
+    margin-right: 50%;
+}
+
+figcaption{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: bottom;
+    width: 200%;
+    text-align: ce;
+}
+
+input {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    width: 5%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+#main-section{
+    background-color: rgb(117, 139, 200);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.calculate-button{
+    display: block;
+    margin-left: 45%;
+    margin-right: 40%;
+}
